@@ -1,0 +1,43 @@
+/* You can add global styles to this file, and also import other style files */
+/* @import '~bootstrap/dist/css/bootstrap.min.css'; */
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&family=Ubuntu&display=swap');
+@import '~bootstrap/dist/css/bootstrap.min.css';
+
+/*
+font-family: 'Fira Sans', sans-serif;
+font-family: 'Ubuntu', sans-serif
+*/
+
+body {
+  margin: auto 0;
+  font-family: 'Ubuntu', sans-serif;
+  background-color: rgb(223, 218, 218);
+}
+
+h1, h2, h3, h4, h5
+ {
+  font-family: 'Fira Sans', sans-serif;
+  font-weight: bold;
+  color: rgb(6, 0, 43);
+ }
+
+ a {
+  font-family: 'Ubuntu', sans-serif;
+  font-weight: 700;
+}
+
+.round-corners{
+  border-radius: 3px solid lightblue;
+}
+
+.active {
+  padding: 10px !important;
+  margin-left: 10px  !important;
+  margin-right: 10px  !important;
+}
+
+a:hover {
+  background-color: orangered !important;
+  border-radius: 10px solid lightblue  !important;
+  padding: 10px !important;
+}

@@ -1,0 +1,19 @@
+<div class="container-fluid">
+  <table [ngClass]="classNames" class="p-2">
+    <thead class="bg-info p-2">
+      <tr>
+        <th scope="col" *ngFor="let header of headers">
+          {{header.label}}
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor = "let record of data">
+        <td> {{ record.name }}</td>
+        <td> {{ record.age }}</td>
+        <td> {{ record.job }}</td>
+        <td> {{ record.employed}} </td>
+      </tr>
+    </tbody>
+  </table>
+</div>
